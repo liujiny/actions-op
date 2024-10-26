@@ -16,6 +16,15 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
+      SOUCRE:
+        description:'Set SOUCRE'
+        required: true
+        default: 'hanwckf/immortalwrt-mt798x'
+        type: choice
+        options:
+        -hanwckf/immortalwrt-mt798x
+        -padavanonly/immortalwrt-mt798x
+        -padavanonly/immortalwrt-mt798x-23.05
       LAN_IP:
         description: 'Set LAN IP Address'
         required: true
