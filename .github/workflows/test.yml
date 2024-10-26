@@ -17,8 +17,8 @@ on:
    inputs:
       SOURCE:
         description: 'SOURCE'
-        default: 'hanwckf/immortalwrt-mt798x'
         required: true
+        default: 'hanwckf/immortalwrt-mt798x'
         type: choice
         options:
         - hanwckf/immortalwrt-mt798x
