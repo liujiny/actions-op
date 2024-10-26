@@ -8,12 +8,14 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: test21.02
+name: hanwckf21.02
+
 on:
   schedule:
     - cron: 0 20 * * 0
   repository_dispatch:
-   inputs:
+  workflow_dispatch:
+    inputs:
       LAN_IP:
         description: 'Set LAN IP Address'
         required: true
