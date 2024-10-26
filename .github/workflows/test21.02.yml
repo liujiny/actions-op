@@ -15,15 +15,6 @@ on:
     - cron: 0 20 * * 0
   repository_dispatch:
    inputs:
-      SOURCE:
-        description: 'SOURCE'
-        required: true
-        default: 'hanwckf/immortalwrt-mt798x'
-        type: choice
-        options:
-        - hanwckf/immortalwrt-mt798x
-        - padavanonly/immortalwrt-mt798x
-        - Padavanonly/immortalwrt-mt798x-23.05
       LAN_IP:
         description: 'Set LAN IP Address'
         required: true
