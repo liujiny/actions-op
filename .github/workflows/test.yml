@@ -14,8 +14,8 @@ on:
   schedule:
     - cron: 0 20 * * 0
   repository_dispatch:
-    inputs:
-    Source:
+   inputs:
+    SOURCE:
       default: 'hanwckf/immortalwrt-mt798x'
       required: true
       type: choice
