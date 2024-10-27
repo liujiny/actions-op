@@ -26,11 +26,5 @@ git clone https://github.com/linkease/istore-ui package/istore-ui
 git clone https://github.com/linkease/istore package/istore
 # 网易云解灰（天灵）
 git clone https://github.com/UnblockNeteaseMusic/server package/server
-# ddnsto
-git clone https://github.com/linkease/nas-packages-luci/tree/main/luci/luci-app-ddnsto package/luci-app-ddnsto
-git clone https://github.com/linkease/nas-packages/tree/master/network/services/ddnsto package/ddnsto
-# 易有云
-git clone https://github.com/linkease/nas-packages/tree/master/network/services/linkease package/linkease
-git clone https://github.com/linkease/nas-packages-luci package/nas-packages-luci
 # 简单mesh
 git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
