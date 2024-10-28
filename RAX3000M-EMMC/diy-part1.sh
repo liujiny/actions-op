@@ -25,6 +25,6 @@ git clone https://github.com/noiver/luci-app-jd-dailybonus package/luci-app-jd-d
 git clone https://github.com/linkease/istore-ui package/istore-ui
 git clone https://github.com/linkease/istore package/istore
 # 网易云解灰（天灵）
-git clone https://github.com/UnblockNeteaseMusic/server package/server
+#git clone https://github.com/UnblockNeteaseMusic/server package/server
 # 简单mesh
 git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
