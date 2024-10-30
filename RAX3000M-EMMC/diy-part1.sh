@@ -35,3 +35,5 @@ git clone https://github.com/linkease/istore package/istore
 
 # 简单mesh
 #git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
+# 集客ac
+git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
