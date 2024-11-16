@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: senior-padavanonly
+name: 25db
 
 on:
   repository_dispatch:
@@ -40,14 +40,14 @@ env:
   ###############手动修改##############
   ##因为是两个设备，所以手动设置上传时候的打包名称和tag名称UPLOAD_TAG_NAME
   OPENWRT_NAME: senior
-  UPLOAD_TAG_NAME: senior-padawanoniy-simplify
+  UPLOAD_TAG_NAME: 5g25db高功率
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: rax3km-emmc/feeds.conf.default
+  FEEDS_CONF: RAX3000M-EMMC/feeds.conf.default
   RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
-  CONFIG_FILE: rax3km-emmc/.senior.config
-  DIY_P1_SH: rax3km-emmc/diy-part1.sh
-  DIY_P2_SH: rax3km-emmc/diy-part2.sh
+  CONFIG_FILE: RAX3000M-EMMC/.senior.config
+  DIY_P1_SH: RAX3000M-EMMC/diy-part1.sh
+  DIY_P2_SH: RAX3000M-EMMC/diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
@@ -129,7 +129,7 @@ jobs:
     - name: 使用nx30pro的高功率eeprom并固定WiFi MAC地址
       if: github.event.inputs.EEPROM == 'true'
       run: |
-        cp rax3km-emmc/nx30pro_eeprom.bin openwrt/package/mtk/drivers/mt_wifi/files/mt7981-default-eeprom/MT7981_iPAiLNA_EEPROM.bin
+        cp RAX3000M-EMMC/nx30pro_eeprom.bin openwrt/package/mtk/drivers/mt_wifi/files/mt7981-default-eeprom/MT7981_iPAiLNA_EEPROM.bin
         cd openwrt
         ## 创建一个辅助文件。文件内容是写入MAC地址到dat文件，固定wifi MAC地址
         echo -e "\t\tlocal wifi0_mac=\"\$(mmc_get_mac_binary factory 0x04)\"
