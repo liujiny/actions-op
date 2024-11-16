@@ -1,7 +1,7 @@
 ## 本脚本来源于lgs2007m二次修改
 - https://github.com/lgs2007m/Actions-OpenWrt
 - -------
-- 全工作流采用了4g25dbm,5g24dbm-eeprom如无需要请在编译时取消打勾‘Use nx30pro eeprom and fixed WiFi MAC address’
+- 全工作流采用了4g25dbm,5g24dbm-eeprom如无需要请在编译时取消‘Use nx30pro eeprom and fixed WiFi MAC address’
   
 - 顾名思义hanwckf.yml使用的是hanwckf源码，padawanonly使用的237源码
   
