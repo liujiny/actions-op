@@ -39,15 +39,15 @@ on:
 env:
   ###############手动修改##############
   ##因为是两个设备，所以手动设置上传时候的打包名称和tag名称UPLOAD_TAG_NAME
-  OPENWRT_NAME: senior
+  OPENWRT_NAME: hanwckf25db
   UPLOAD_TAG_NAME: 5g25db高功率
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
   REPO_BRANCH: openwrt-21.02
-  FEEDS_CONF: RAX3000M-EMMC/feeds.conf.default
+  FEEDS_CONF: 25db/feeds.conf.default
   RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
-  CONFIG_FILE: RAX3000M-EMMC/.mtwifi-cfg.config
-  DIY_P1_SH: RAX3000M-EMMC/diy-part1.sh
-  DIY_P2_SH: RAX3000M-EMMC/diy-part2.sh
+  CONFIG_FILE: 25db/.mtwifi-cfg.config
+  DIY_P1_SH: 25db/diy-part1.sh
+  DIY_P2_SH: 25db/diy-part2.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
