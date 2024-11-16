@@ -1,4 +1,5 @@
 ## 本脚本来源于lgs2007m二次修改
+- https://github.com/lgs2007m/Actions-OpenWrt
 - -------
 - 加入了h3c-nx30pro-5g25db-eeprom，如有需要编译时请选择25db.yml（默认使用hanwckf源码）
 - 顾名思义hanwckf.yml使用的是hanwckf源码，padawanonly使用的237源码
