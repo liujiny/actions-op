@@ -10,9 +10,11 @@
 - -------
 ## 感谢p大的云编译项目
 - https://p3terx.com/archives/build-openwrt-with-github-actions.html
-## padavanonly源码
+## padavanonly21.02源码
 - https://github.com/padavanonly/immortalwrt-mt798x
-## hanwckf源码
+## padavanonly23.05源码
+- https://github.com/padavanonly/immortalwrt-mt798x-23.05
+## hanwckf21.02源码
 - https://github.com/hanwckf/immortalwrt-mt798x
 - -------
 ## 其他资源汇总（瞎整）
