@@ -17,5 +17,8 @@
 ## hanwckf21.02源码
 - https://github.com/hanwckf/immortalwrt-mt798x
 - -------
+## 适合的U-boot
+- https://www.right.com.cn/forum/forum.php?mod=viewthread&tid=8328967
+- -------
 ## 其他资源汇总（瞎整）
 - https://www.yuque.com/yuqueyonghullvctc/lddvzm/cwqxrg9zh55k4ri5
