@@ -13,7 +13,7 @@
 
 ### 中文
 
-// Your Chinese content here
+// [Your Chinese content here](https://github.com/301262177/actions-op/blob/main/README.md)
 - -------
 ## 本脚本来源于lgs2007m二次修改
 - https://github.com/lgs2007m/Actions-OpenWrt
