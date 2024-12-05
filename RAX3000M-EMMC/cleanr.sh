@@ -21,5 +21,5 @@
 #git clone https://github.com/messense/aliyundrive-webdav package/messense
 
 # 商店
-git clone https://github.com/linkease/istore-ui package/istore-ui
-git clone https://github.com/linkease/istore package/istore
+#git clone https://github.com/linkease/istore-ui package/istore-ui
+#git clone https://github.com/linkease/istore package/istore
