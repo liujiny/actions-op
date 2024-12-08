@@ -58,9 +58,9 @@ env:
   ###############手动修改##############
   ##因为是两个设备，所以手动设置上传时候的打包名称和tag名称UPLOAD_TAG_NAME
   OPENWRT_NAME: cleanr
-  UPLOAD_TAG_NAME: rax3000m算力版_精简版
-  REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x
-  REPO_BRANCH: openwrt-21.02
+  UPLOAD_TAG_NAME: rax3000m算力版
+  REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: RAX3000M-EMMC/feeds.conf.default
   RAX3000M_EMMC_DTS_FILE: target/linux/mediatek/files-5.4/arch/arm64/boot/dts/mediatek/mt7981-cmcc-rax3000m-emmc.dts
   CONFIG_FILE: RAX3000M-EMMC/.cleanr.config
