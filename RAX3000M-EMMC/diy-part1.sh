@@ -37,3 +37,5 @@ git clone https://github.com/linkease/istore package/istore
 git clone https://github.com/ntlf9t/luci-app-easymesh package/luci-app-easymesh
 # 集客ac
 git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+# adguardhomeapp
+git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
