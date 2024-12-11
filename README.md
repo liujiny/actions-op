@@ -23,3 +23,5 @@
 - -------
 ## 其他资源汇总（瞎整）
 - https://www.yuque.com/yuqueyonghullvctc/lddvzm/cwqxrg9zh55k4ri5
+## alist for openwrt（a53&a55)密码:i4el
+- https://along123.lanzouv.com/b0hciixcb
