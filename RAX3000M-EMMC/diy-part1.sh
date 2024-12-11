@@ -46,5 +46,5 @@ git clone https://github.com/linkease/istore package/istore
 #git clone https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 
 # alist文件列表
-git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
+#git clone https://github.com/sbwml/luci-app-alist package/luci-app-alist
 
