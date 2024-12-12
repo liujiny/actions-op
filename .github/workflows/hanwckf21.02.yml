@@ -10,6 +10,9 @@
 ###############手动修改##############
 name: hanwckf21.02
 
+permissions: write-all
+# 开启写权限，防止无法上传到release
+
 on:
   repository_dispatch:
   workflow_dispatch:
@@ -116,6 +119,13 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+
+    - name: 开启缓存
+      uses: klever1988/cachewrtbuild@main
+      with:
+        ccache: 'true'
+        mixkey: 'openwrt21-cortexa53'
+        prefix: ${{ github.workspace }}/openwrt
                 
     - name: 加载feeds.conf.default & DIY_P1_SH
       run: |
